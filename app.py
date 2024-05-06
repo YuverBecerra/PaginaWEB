@@ -1,6 +1,7 @@
 import dash
 from dash import html, dcc,Input, Output,callback
 import dash_bootstrap_components as dbc 
+import pandas as pd
 import numpy as np
 
 from frontend.Estructuras.area_superior.titulo import variableA
@@ -9,6 +10,7 @@ from frontend.Estructuras.area_subtitulos.subtitulos import variableB
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server 
+app.layout = layout
 app.layout = dbc.Container([
     dbc.Row([
         dbc.Col(variableA, md=12, style={'textAlign': 'center'}),
