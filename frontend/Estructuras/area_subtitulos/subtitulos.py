@@ -1,11 +1,8 @@
 import dash
 from dash import html, dcc
 import dash_bootstrap_components as dbc 
-import matplotlib.pyplot as plt
 import base64
 from dash.dependencies import Input, Output
-import math
-
 
 from frontend.Estructuras.DatosCR.CanalR import variableCR
 from frontend.Estructuras.DatosCT.CanalT import variableCT
