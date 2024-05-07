@@ -3,7 +3,7 @@ import dash_bootstrap_components as dbc
 import base64
 
 # Cargar la imagen como un archivo binario
-with open('frontend\Imagenes\CANAL2.jpg', 'rb') as img_file:
+with open('frontend/Imagenes/CANAL2.jpg', 'rb') as img_file:
     encoded_img = base64.b64encode(img_file.read()).decode('ascii')
 
 
