@@ -41,7 +41,7 @@ variableB = html.Div([
                           html.H6("Sección circular: El círculo es la sección más común para alcantarillados y alcantarillas de tamaños pequeño y mediano",style={'textAlign': 'justify'}),
                           html.H6("Sección triangular: Se usa para cunetas revestidas en las carreteras, también en canales de tierra pequeños, fundamentalmente por facilidad de trazo. También se emplean revestidas, como alcantarillas de las carreteras.",style={'textAlign': 'justify'}),
                           html.Br(),
-                          # html.Img(src=f'data:image/png;base64,{encoded2_img}', style={'width': '40%', 'height': 'auto','textAlign': 'center'}),
+                          html.Img(src=f'data:image/png;base64,{encoded2_img}', style={'width': '40%', 'height': 'auto','textAlign': 'center'}),
                           html.Br(),
                           html.Br(),
                           html.Br(),
